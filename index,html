@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<cabeza>
+ <meta conjunto de caracteres ="UTF-8">
+ <title>Bypass FRP - Enlaces rápidos</title>
+ <estilo>
+ cuerpo {
+ familia de fuentes: sans-serif;
+ fondo: #f4f4f4;
+ alineación de texto: centro;
+ relleno: 20px;
+    }
+ h1 {
+ color: #333;
+    }
+ a.botón {
+ másrar: bloquear;
+ margen: 15px automático;
+ relleno: 15px 20px;
+ color de fondo: #007bff;
+ color: blanco;
+ decoración de texto: ninguna;
+ radio del borde: 8px;
+ ancho máximo: 300px;
+    }
+ a.button:flotar {
+ color de fondo: #0056b3;
+    }
+ </estilo>
+</cabeza>
+<cuerpo>
+ <h1>🔓 Bypass FRP - Enlaces de acceso rápido</h1>
+  
+ <a href="intent://com.android.settings/#Intent;scheme=android-app;end" class="button">Abrir Configuración</a>
+ <a href="intent://settings/#Intent;end" class="button">Abrir Ajustes (alternativo)</a>
+ <a href="intent://com.google.android.gsf.login/#Intent;scheme=android-app;end" class="button">Iniciar sesión (GSF Login)</a>
+ <a href="intent://com.android.settings.Settings$UserSettingsActivity/#Intent;scheme=android-app;end" class="button">Usuarios y cuentas</a>
+
+ <p>💡 Si uno no funciona, probablemente los demás. Algunos están deshabilitados en Android 13, pero otros siguen funcionando.</p>
+</cuerpo>
+</html>
