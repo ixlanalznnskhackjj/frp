@@ -1,41 +1,41 @@
 <!DOCTYPE html>
-<html lang="es">
-<cabeza>
- <meta conjunto de caracteres ="UTF-8">
- <title>Bypass FRP - Enlaces rápidos</title>
- <estilo>
- cuerpo {
- familia de fuentes: sans-serif;
- fondo: #f4f4f4;
- alineación de texto: centro;
- relleno: 20px;
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FRP Bypass - Quick Access Links</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f4f4f4;
+      text-align: center;
+      padding: 20px;
     }
- h1 {
- color: #333;
+    h1 {
+      color: #333;
     }
- a.botón {
- másrar: bloquear;
- margen: 15px automático;
- relleno: 15px 20px;
- color de fondo: #007bff;
- color: blanco;
- decoración de texto: ninguna;
- radio del borde: 8px;
- ancho máximo: 300px;
+    a.button {
+      display: block;
+      margin: 15px auto;
+      padding: 15px 20px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      max-width: 300px;
     }
- a.button:flotar {
- color de fondo: #0056b3;
+    a.button:hover {
+      background-color: #0056b3;
     }
- </estilo>
-</cabeza>
-<cuerpo>
- <h1>🔓 Bypass FRP - Enlaces de acceso rápido</h1>
+  </style>
+</head>
+<body>
+  <h1>🔓 FRP Bypass - Quick Access Links</h1>
   
- <a href="intent://com.android.settings/#Intent;scheme=android-app;end" class="button">Abrir Configuración</a>
- <a href="intent://settings/#Intent;end" class="button">Abrir Ajustes (alternativo)</a>
- <a href="intent://com.google.android.gsf.login/#Intent;scheme=android-app;end" class="button">Iniciar sesión (GSF Login)</a>
- <a href="intent://com.android.settings.Settings$UserSettingsActivity/#Intent;scheme=android-app;end" class="button">Usuarios y cuentas</a>
+  <a href="intent://com.android.settings/#Intent;scheme=android-app;end" class="button">Open Settings</a>
+  <a href="intent://settings/#Intent;end" class="button">Open Settings (Alt)</a>
+  <a href="intent://com.google.android.gsf.login/#Intent;scheme=android-app;end" class="button">Sign in (GSF Login)</a>
+  <a href="intent://com.android.settings.Settings$UserSettingsActivity/#Intent;scheme=android-app;end" class="button">Users & Accounts</a>
 
- <p>💡 Si uno no funciona, probablemente los demás. Algunos están deshabilitados en Android 13, pero otros siguen funcionando.</p>
-</cuerpo>
+  <p>💡 If one link doesn't work, try the others. Some may be disabled on Android 13, but others still work.</p>
+</body>
 </html>
