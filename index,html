@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>FRP Bypass - Quick Access Links</title>
+  <title>FRP Bypass - Quick Access</title>
   <style>
     body {
       font-family: sans-serif;
@@ -21,7 +21,7 @@
       color: white;
       text-decoration: none;
       border-radius: 8px;
-      max-width: 300px;
+      max-width: 320px;
     }
     a.button:hover {
       background-color: #0056b3;
@@ -29,13 +29,20 @@
   </style>
 </head>
 <body>
-  <h1>🔓 FRP Bypass - Quick Access Links</h1>
-  
+  <h1>🔓 FRP Bypass - Quick Access</h1>
+
+  <!-- Ajustes -->
   <a href="intent://com.android.settings/#Intent;scheme=android-app;end" class="button">Open Settings</a>
   <a href="intent://settings/#Intent;end" class="button">Open Settings (Alt)</a>
+
+  <!-- Cuentas -->
   <a href="intent://com.google.android.gsf.login/#Intent;scheme=android-app;end" class="button">Sign in (GSF Login)</a>
   <a href="intent://com.android.settings.Settings$UserSettingsActivity/#Intent;scheme=android-app;end" class="button">Users & Accounts</a>
 
-  <p>💡 If one link doesn't work, try the others. Some may be disabled on Android 13, but others still work.</p>
-</body>
-</html>
+  <!-- Nuevos botones útiles -->
+  <a href="intent://com.android.documentsui/#Intent;scheme=android-app;end" class="button">File Manager (DocumentsUI)</a>
+  <a href="intent://com.android.providers.downloads.ui/#Intent;scheme=android-app;end" class="button">Download Manager</a>
+  <a href="intent://com.android.vending/#Intent;scheme=android-app;end" class="button">Google Play Store</a>
+  <a href="intent://com.google.android.apps.nbu.files/#Intent;scheme=android-app;end" class="button">Google Files</a>
+  <a href="intent://com.android.settings.ManageApplications/#Intent;scheme=android-app;end" class="button">Manage Apps</a>
+
