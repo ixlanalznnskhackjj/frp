@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FRP Bypass Access Panel</title>
+  <style>
+    body { font-family: sans-serif; background-color: #121212; color: #fff; text-align: center; padding: 30px; }
+    h1 { color: #00e5ff; }
+    .btn { display: block; width: 80%; max-width: 300px; margin: 10px auto; padding: 15px; background: #00bcd4; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; }
+    .btn:hover { background: #0097a7; }
+  </style>
+</head>
+<body>
+  <h1>FRP Bypass Panel - Moto G32</h1>
+
+  <a class="btn" href="intent://com.android.settings#Intent;scheme=package;end">Open Settings (Intent)</a>
+  <a class="btn" href="intent://com.android.settings.Settings$ManageApplicationsActivity#Intent;scheme=android-app;end">Manage Apps (Intent)</a>
+  <a class="btn" href="intent://com.android.vending#Intent;scheme=market;end">Google Play Store</a>
+  <a class="btn" href="intent://com.google.android.gms#Intent;scheme=package;end">Google Services Settings</a>
+  <a class="btn" href="content://com.android.settings">Open Settings (Content)</a>
+  <a class="btn" href="content://com.android.contacts/contacts">Open Contacts</a>
+  <a class="btn" href="intent://com.android.dialer#Intent;scheme=tel;end">Open Dialer</a>
+  <a class="btn" href="tel:*#*#4636#*#*">Testing Menu (hidden code)</a>
+  <a class="btn" href="intent://youtube.com#Intent;package=com.google.android.youtube;end">YouTube</a>
+  <a class="btn" href="intent://com.android.documentsui#Intent;scheme=package;end">File Manager</a>
+  <a class="btn" href="intent://settings#Intent;action=android.settings.MANAGE_ALL_FILES_ACCESS_PERMISSION;end">Manage Files Access</a>
+  <a class="btn" href="intent://settings#Intent;action=android.settings.ADD_ACCOUNT_SETTINGS;end">Add Google Account</a>
+</body>
+</html>
